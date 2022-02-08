@@ -45,6 +45,17 @@
 ④ hello-static.html를 웹브라우저에 뿌려줌
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
-①
-② @ResponseBody가 붙으면 데이터 그대로 http응답에 데이터를 그대로 넘김
-(@ResponseBody의 Body는 html의 body부가 아니라 httpResponse 메시지의 body를 일컫는 것임)
+
+<div align="center"><h3>
+[@ResponseBody로 Http의 Body에 데이터를 직접 반환]
+</h3></div>
+
+![시스템 구성도3](https://user-images.githubusercontent.com/28974240/153072050-eddbaf2d-6539-42dc-bbeb-0c3cdfcaf57b.png)
+① 웹브라우저에서 localhost:8080/hello-api를 던지면<br />
+② SpringBoot에 내장된 톰캣 서버가 요청을 받아와서 Controller에 던져줌<br />
+③ httpRequest메시지의 parameter값으로 GetMapping된 메소드에 @ResponseBody가 붙으면 httpResponse메시지에 데이터(return값)를 그대로 넘김<br />
+(@ResponseBody의 Body는 html의 body부가 아니라 httpResponse 메시지의 body를 일컫는 것임)<br />
+④ viewResolver 대신에 HttpMessageConverter 가 동작<br />
+기본 문자처리: StringHttpMessageConverter<br />
+기본 객체처리: MappingJackson2HttpMessageConverter<br />
+byte 처리 등등 기타 여러 HttpMessageConverter가 기본으로 등록되어 있음<br />
