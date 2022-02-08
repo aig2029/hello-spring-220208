@@ -44,3 +44,7 @@
 ③ mapping이 된 Controller가 없으면 SpringBoot가 resources안에 있는 hello-static.html을 찾아서 반환해줌.<br />
 ④ hello-static.html를 웹브라우저에 뿌려줌
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+①
+② @ResponseBody가 붙으면 데이터 그대로 http응답에 데이터를 그대로 넘김
+(@ResponseBody의 Body는 html의 body부가 아니라 httpResponse 메시지의 body를 일컫는 것임)
