@@ -26,7 +26,7 @@
 ③ hello에 mapping된 method(@GetMapping("hello"))를 실행하여<br />
 ④ ViewResolver에 return값(hello) 보냄<br />
 (그림에서는 model에 data:hello!! 데이터도 첨가했음 hello.html에서 thymeleaf를 통해 치환되는 데이터)<br />
-⑤컨트롤러에서 리턴 값으로 문자를 반환하면 뷰리졸버가 화면을 찾아서 처리한다
+⑤ 컨트롤러에서 리턴 값으로 문자를 반환하면 뷰리졸버가 화면을 찾아서 처리한다
 
 
 
