@@ -11,6 +11,7 @@
 ## 기술스택
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
 ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
+![Thymeleaf](https://img.shields.io/badge/Thymeleaf-%23005C0F.svg?style=for-the-badge&logo=Thymeleaf&logoColor=white)
 <br /><br /><br /><br />
 
 ## 기간
@@ -18,6 +19,7 @@
 <br /><br /><br /><br />
 
 ## 수강일지
+[Thymeleaf템플릿 엔진 동작 확인]
 ![시스템 구성도2](https://user-images.githubusercontent.com/28974240/152991297-57ef60c6-d985-43aa-a933-d628ac121348.png)
 
 
@@ -28,8 +30,9 @@
 (그림에서는 model에 data:hello!! 데이터도 첨가했음 hello.html에서 thymeleaf를 통해 치환되는 데이터)<br />
 ⑤ 컨트롤러에서 리턴 값으로 문자를 반환하면 뷰리졸버가 화면을 찾아서 처리한다
 
-
-
+<br /><br /><br /><br />
+[SpringBoot정적 컨텐츠 기능(Controller에 Mapping되지 않은 요청을 할 경우)]
+![시스템 구성도2](https://user-images.githubusercontent.com/28974240/153049551-c8395642-b580-4a48-af85-0554b0c9db13.png)
 ① 웹브라우저에서 localhost:8080/hello-static.html을 던지면, <br />
 ② springBoot에 내장된 톰캣 서버가 요청을 받아와서 Controller에 던져줌.( 우선 순위가 SpringContainer의 Controller에 있음)<br />
 ③ mapping이 된 Controller가 없으면 SpringBoot가 resources안에 있는 hello-static.html을 찾아서 반환해줌.
