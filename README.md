@@ -17,7 +17,7 @@ IntelliJ, Java
 <br /><br />
 
 ## 수강일지
-
+![시스템 구성도](https://user-images.githubusercontent.com/28974240/152988188-87d8c41f-d5d5-40a7-9e18-8dbcfef1edb2.jpg)
 
 
 
