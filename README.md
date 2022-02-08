@@ -18,14 +18,15 @@
 <br /><br /><br /><br />
 
 ## 수강일지
-![시스템 구성도](https://user-images.githubusercontent.com/28974240/152988188-87d8c41f-d5d5-40a7-9e18-8dbcfef1edb2.jpg)
+![시스템 구성도2](https://user-images.githubusercontent.com/28974240/152991297-57ef60c6-d985-43aa-a933-d628ac121348.png)
 
-웹브라우저에서 localhost:8080/hello를 던지면, <br />
-springBoot에 내장된 톰캣 서버가 받아와서 Controller에 던져줌. <br />
-hello에 mapping된 method(@GetMapping("hello"))를 실행하여<br />
-ViewResolver에 return값(hello) 보냄<br />
+
+① 웹브라우저에서 localhost:8080/hello를 던지면, <br />
+② springBoot에 내장된 톰캣 서버가 받아와서 Controller에 던져줌. <br />
+③hello에 mapping된 method(@GetMapping("hello"))를 실행하여<br />
+④ ViewResolver에 return값(hello) 보냄<br />
 (그림에서는 model에 data:hello!! 데이터도 첨가했음<br />
-컨트롤러에서 리턴 값으로 문자를 반환하면 뷰리졸버가 화면을 찾아서 처리한다
+⑤컨트롤러에서 리턴 값으로 문자를 반환하면 뷰리졸버가 화면을 찾아서 처리한다
 
 
 
