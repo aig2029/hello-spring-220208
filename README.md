@@ -4,7 +4,7 @@
  
  
 ## 개발환경
-IntelliJ, Java
+IntelliJ, WindowsOS
 <br /><br />
 
 ## 기술스택
@@ -13,7 +13,7 @@ IntelliJ, Java
 <br /><br />
 
 ## 기간
-220208~
+[220208~]
 <br /><br />
 
 ## 수강일지
