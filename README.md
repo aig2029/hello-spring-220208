@@ -4,7 +4,8 @@
  
  
 ## 개발환경
-IntelliJ, WindowsOS
+![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
+![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 <br /><br />
 
 ## 기술스택
