@@ -16,10 +16,13 @@
 
 ## 기간
 [220208~]
-<br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 ## 수강일지
+<div align="center"><h3>
 [Thymeleaf템플릿 엔진 동작 확인]
+ </h3></div>
+
 ![시스템 구성도2](https://user-images.githubusercontent.com/28974240/152991297-57ef60c6-d985-43aa-a933-d628ac121348.png)
 
 
@@ -31,10 +34,13 @@
 ⑤ 컨트롤러에서 리턴 값으로 문자를 반환하면 뷰리졸버가 화면을 찾아서 처리한다
 
 <br /><br /><br /><br />
+<div align="center"><h3>
 [SpringBoot정적 컨텐츠 기능(Controller에 Mapping되지 않은 요청을 할 경우)]
+</h3></div>
+ 
 ![시스템 구성도2](https://user-images.githubusercontent.com/28974240/153049551-c8395642-b580-4a48-af85-0554b0c9db13.png)
 ① 웹브라우저에서 localhost:8080/hello-static.html을 던지면, <br />
 ② springBoot에 내장된 톰캣 서버가 요청을 받아와서 Controller에 던져줌.( 우선 순위가 SpringContainer의 Controller에 있음)<br />
 ③ mapping이 된 Controller가 없으면 SpringBoot가 resources안에 있는 hello-static.html을 찾아서 반환해줌.
 
-
+<br /><br /><br /><br /><br /><br /><br />
