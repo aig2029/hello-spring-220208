@@ -15,7 +15,7 @@
 <br /><br /><br /><br />
 
 ## 기간
-[220208~]
+[220208~220211]
 <br /><br /><br /><br />
 
 ## 수강일지
@@ -89,3 +89,6 @@ ex) @Controller @Servcie @Repository<br />
 </h3></div>
 - @Configuration 애노테이션을 가진 클래스(ex)SpringConfig 클래스)를 따로 작성하여 스프링 컨테이너에 스프링 빈을 등록하는 방법 
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+~ MemberRepository 인터페이스를 구현화한 MemoryRepository, Jdbc", JdbcTemplate", Jpa", SpringDataJpa" 구현체들을 구현화해서<br />
+갈아끼워넣음 OOP의 개방 폐쇄 원칙 Spring의 핵심인 DI를 제대로 알고가면 될 것 같음
