@@ -62,5 +62,15 @@ byte 처리 등등 기타 여러 HttpMessageConverter가 기본으로 등록되�
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 <div align="center"><h3>
-[스프링 빈을 등록하는 2가지 방법]
+[스프링 빈을 등록하는 2가지 방법 - 컴포넌트 스캔]
 </h3></div>
+
+1. 생성자에 @Autowired가 있으면 스프링이 연관된 객체를 스프링 컨테이너에 찾아서 넣어준다.<br />
+이렇게 객체 의존 관계를 외부에서 넣어주는 것을 DI(의존성 주입)이라 한다.<br />
+기존에는 개발자가 직접 주입했지만, 스프링에서는 @Autowired에 의해 주입된다.<br />
+
+ . @SpringBootApplication 애노테이션을 가지고 있고, main함수를 가지고 있는 클래스의<br /> 
+ package안에 속해 있는(pacakage가 같거나 그 하위 패키지) 스프링 빈만을 사용할 수 있다.<br />
+ 다른 package에 스프링 빈을 등록해도 그것을 사용할 수 없다.<br />
+ (@SpringBootApplication 애노테이션은 @ComponentScan 애노테이션을 가지고 있음)
+ 
