@@ -79,6 +79,7 @@ package안에 속해 있는(pacakage가 같거나 그 하위 패키지) 스프�
 
 3. @Component를 포함하는 애노테이션은 스프링 빈으로 자동 등록된다. <br />
 ex) @Controller @Servcie @Repository<br />
-![2022-02-10 19;18;19](https://user-images.githubusercontent.com/28974240/153386615-620d6332-ac8c-44c0-91c7-e95df052a104.PNG)
+![2022-02-10 19;18;19](https://user-images.githubusercontent.com/28974240/153386615-620d6332-ac8c-44c0-91c7-e95df052a104.PNG)<br />
+(참고 : 스프링은 컨테이너에 스프링 빈을 등록할 때, 기본적으로 싱글톤으로 등록한다. 따라서 같은 스프링 빈이면 모두 같은 인스턴스이다. 특별한 경우를 제외하고 대부분 싱글톤을 사용한다.)
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
  
