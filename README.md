@@ -59,3 +59,8 @@
 기본 문자처리: StringHttpMessageConverter<br />
 기본 객체처리: MappingJackson2HttpMessageConverter<br />
 byte 처리 등등 기타 여러 HttpMessageConverter가 기본으로 등록되어 있음<br />
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+<div align="center"><h3>
+[스프링 빈을 등록하는 2가지 방법]
+</h3></div>
