@@ -87,3 +87,5 @@ ex) @Controller @Servcie @Repository<br />
 <div align="center"><h3>
 [스프링 빈을 등록하는 2가지 방법 - 자바 코드로 직접 스프링 빈 등록]
 </h3></div>
+- @Configuration 애노테이션을 가진 클래스(ex)SpringConfig 클래스)를 따로 작성하여 스프링 컨테이너에 스프링 빈을 등록하는 방법 
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
